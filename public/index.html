@@ -3,9 +3,13 @@
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,600&display=swap"
+			rel="stylesheet"
+		/>
 		<header id="header">
 			<img id="header-img" src="plant.png" />
-			<h1>
+			<h1 id="title">
 				Resources for Education
 			</h1>
 			<nav id="nav-bar">
@@ -14,5 +18,63 @@
 				<a class="nav-link" href="#footer"> Contact Us</a>
 			</nav>
 		</header>
+		<h3 id="email-title">
+			Sign-up for weekly emails about different programs, resources, and
+			opportunities to ensure your success!
+		</h3>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<label for="email"></label>
+			<input
+				type="email"
+				placeholder="Enter your email address"
+				id="email"
+				name="email"
+			/>
+			<input id="submit" type="submit" />
+		</form>
+		<section id="features">
+			<div class="grouping">
+				<img
+					id="img-opportunities"
+					src="https://www.portlandworkforcealliance.org/wp-content/uploads/2017/02/PWA-green-lightbulb-200x150.png"
+				/>
+				<article id="opportunities">
+					<h2>
+						Local opportunities
+					</h2>
+					<p id="info">
+						Our algorithim looks up local programs, scholarships, and volunteer
+						opportunties for you to become involved in
+					</p>
+				</article>
+			</div>
+			<div class="grouping">
+				<img
+					id="img-opportunities"
+					src="https://www.portlandworkforcealliance.org/wp-content/uploads/2017/02/PWA-green-lightbulb-200x150.png"
+				/>
+				<article id="opportunities">
+					<h2>
+						Local opportunities
+					</h2>
+					<p id="info">
+						Our algorithim looks up local programs, scholarships, and volunteer
+						opportunties for you to become involved in
+					</p>
+				</article>
+			</div>
+			<div class="grouping">
+				<img id="img-opportunities" src="org.png" />
+				<article id="opportunities">
+					<h2>
+						Local opportunities
+					</h2>
+					<p id="info">
+						Our algorithim looks up local programs, scholarships, and volunteer
+						opportunties for you to become involved in
+					</p>
+				</article>
+			</div>
+		</section>
 	</body>
 </html>

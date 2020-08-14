@@ -1,7 +1,88 @@
 body {
-	background-color: #eee;
+	background-color: #f0ece3;
+	font-family: "Poppins", sans-serif;
 }
+
+#header {
+	display: flex;
+	background-size: cover;
+}
+
+#title {
+	margin-left: 10px;
+	color: #523906;
+}
+
 #header-img {
 	max-width: 100%;
 	height: 100px;
+	margin-left: 50px;
+}
+
+#nav-bar {
+	margin-top: 30px;
+	margin-left: 25%;
+	font-size: 20px;
+	min-width: 450px;
+}
+.nav-link {
+	margin: 30px;
+	text-decoration: none;
+	color: #523906;
+}
+
+#email-title {
+	width: 60%;
+	height: 60px;
+	margin: auto;
+	text-align: center;
+	min-width: 500px;
+}
+#form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	width: 60%;
+	margin: auto;
+	min-width: 500px;
+}
+
+#email {
+	height: 30px;
+	width: 300px;
+	margin: auto;
+}
+#submit {
+	margin-top: 15px;
+	width: 30%;
+	margin: auto;
+	border-radius: 15px;
+	height: 35px;
+	background: transparent;
+	color: #f0ece3;
+	background-color: #158467;
+	font-weight: 600;
+}
+
+#features {
+	margin-top: 50px;
+}
+
+#opportunities {
+	background-color: lightslategray;
+	width: 60%;
+	margin: auto;
+	margin-left: 100px;
+}
+
+#img-opportunities {
+	background-color: lightyellow;
+	margin-left: 150px;
+	height: 150px;
+	width: 100px;
+}
+
+.grouping {
+	display: flex;
 }
