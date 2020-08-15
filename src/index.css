@@ -20,11 +20,32 @@ body {
 }
 
 #nav-bar {
+	background-color: #f0ece3;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-width: 800px;
+}
+
+#nav {
 	margin-top: 30px;
 	margin-left: 25%;
 	font-size: 20px;
 	min-width: 450px;
 }
+
+@media only screen and (max-width: 700px) {
+	#nav {
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		margin-left: -200px;
+		line-height: 0.2;
+		padding-top: 50px;
+	}
+}
+
 .nav-link {
 	margin: 30px;
 	text-decoration: none;
@@ -32,12 +53,21 @@ body {
 }
 
 #email-title {
+	padding-top: 200px;
 	width: 60%;
 	height: 60px;
 	margin: auto;
 	text-align: center;
 	min-width: 500px;
 }
+
+@media only screen and (max-width: 700px) {
+	#email-title {
+		font-size: 17px;
+		margin-top: 200px;
+	}
+}
+
 #form {
 	margin: auto;
 	display: flex;
@@ -70,19 +100,60 @@ body {
 }
 
 #opportunities {
-	background-color: lightslategray;
 	width: 60%;
 	margin: auto;
 	margin-left: 100px;
 }
 
 #img-opportunities {
-	background-color: lightyellow;
 	margin-left: 150px;
 	height: 150px;
 	width: 100px;
 }
 
+@media only screen and (max-width: 700px) {
+	#img-opportunities {
+		display: none;
+	}
+}
+
 .grouping {
 	display: flex;
+	margin-top: 10px;
+}
+
+#video {
+	padding: 50px;
+	margin-left: 30px;
+}
+
+#about {
+	width: 800px;
+	margin: auto;
+}
+
+.about-info {
+	width: 70%;
+	margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+	.about-info {
+		width: 40%;
+		margin: auto;
+	}
+}
+
+#footer {
+	padding-top: 50px;
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+	#footer {
+		width: 40%;
+		font-size: 15px;
+	}
 }
